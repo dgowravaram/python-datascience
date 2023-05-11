@@ -1,0 +1,17 @@
+<!-- simple form w/ text area + submit button. when form is 
+    submitted, data sent to /summarize route --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Summarizer</title>
+    </head>
+    <body>
+        <h1>Text Summarizer</h1>
+        <form method="POST" action="/summarize">
+        <textarea name="text" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+    </body>
+</html>
